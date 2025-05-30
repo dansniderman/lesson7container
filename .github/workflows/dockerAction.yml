@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: chmod +x entrypoint.sh
-      - uses: .
+      - uses: ./
         id: dockerAction
         with: 
           number1: 40
