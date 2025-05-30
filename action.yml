@@ -4,7 +4,7 @@ inputs:
    number1:
      required: true
      default: 0
-    number2:
+   number2:
       required: true
       default: 0
 outputs:
