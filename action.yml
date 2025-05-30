@@ -13,7 +13,7 @@ outputs:
 
 runs:
   using: 'docker'
-  image: 'DockerFile'
+  image: 'Dockerfile'
   args:
      - ${{ inputs.number1 }}
      - ${{ inputs.number2 }}
